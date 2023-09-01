@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh portfolio</title>
+    <link rel="icon" href="images\pass.png.png" type="image/png/jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d2902c9154.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo2.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="header">Home</a></li>
+                <li><a href="About">About</a></li>
+                <li><a href="Education">Education</a></li>
+                <li><a href="Portfolio">Portfolio</a></li>
+                <li><a href="Contact">Contact</a></li>
+                <i class="fas-solid fa-circle-xmark" onclick="closemenu"></i>
+            </ul>
+            <i class="fas-solid fa-bars" onclick="openmenu"></i>
+        </nav>
+        <div id="header-text">
+            <p>Web Designer</p>
+            <h1>Hi,I'm <span>Dinesh</span> Pancheti From Nellore</h1>
+        </div>
+    </div>
+
+   </div>
+  <!----------------About------------------------>
+   <div id="About">
+    <div class="container">
+
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/pass.png.png">
+            </div>
+
+            <div class="about-col-2">
+                <h1  class="subtitle">About Me</h1>
+                <P>Hello, Everyone Welcome to my profile. My Name is <span>Dinesh Pancheti</span> ,I have completed my education in Bachleor's Degree. I am a web developer, and also i have an experience as a salesforce developer intern in Salesforce Company.</P>
+               
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('Education')">Education</p>
+                </div>
+
+               
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web Interface</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents " id="Experience">
+                    <ul>
+                        <li><span>Salesforce developer</span><br>I Have completed my internship in salesforce company as a developer </li>
+                        <li><span>Web Development</span><br>Fresher</li>
+                    </ul>
+                </div>
+                <div class="tab-contents " id="Education">
+                    <ul>
+                        <li><span>UG</span><br>Bachleor of computer science 2021-2023</li>
+                        <li><span>12th</span><br>M-P-C in SPbvd jr college 2018-2020 </li>
+                        <li><span>SSC</span><br>Govt high school thatiparthi 2017-2018</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+<!------------------------education------------->
+
+<div id="Edcation">
+    <div class="container">
+        <h1 class="subtitle">My Education</h1>
+        <div class="education-list">
+            <div>
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h2>Bachleors Degree</h2>
+                <p>Bachleor of computer science in <br> SPBVD DEGREE COLLEGE <br>Podalakur</p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-school"></i>
+                <h2>12th</h2>
+                <p>M-P-C in SPBVD JUNIOR COLLEGE <br> Podalakur</p>
+            </div>
+
+            <div >
+                <i class="fa-solid fa-school"></i>
+                <h2>SSC</h2>
+                <p>Govt High School thatiparthi</p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-----------------------Portfolio--------------->
+<div id="Portfolio">
+    <div class="container">
+       <h1 class="subtitle">My Work</h1>
+       <div class="work-list">
+
+        <div class="work">
+            <img src="images/1.jpeg">
+
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>The app connects you to the talented people around the world.Download it from play store.</p>
+                 <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="work">
+            <img src="images/2.png">
+
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>The app connects you to the talented people around the world.Download it from play store.</p>
+                 <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="work">
+            <img src="images/3.png">
+
+            <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>The app connects you to the talented people around the world.Download it from play store.</p>
+                 <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+      <div>
+        <a href="#" class="btn">See more</a>
+    </div>
+        
+       </div>
+    </div>
+
+</div>
+<!--------------------------Contact---------------------------------------->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>dineshpancheti0110@gmail.com</p>
+                <p> <i class="fa-solid fa-phone-volume"></i>7729037352</p>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/panchetidinesh.goud?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/dineshgowda_1433?utm_source=qr&igshid=NGExMmI2YTkyZg=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://youtube.com/@dineshcreations.161?si=gbIf_f6NflLO_grb"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/in/dinesh-pancheti-81a7821a9"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/766081"><i class="fa-brands fa-github"></i></a>
+                </div>
+
+                <div> <a href="#" class="btn btn2">Download CV</a>
+                </div>
+            <div>
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                </form>
+                <div><button type="submit" class="btn btn2">Submit</button></div>
+                <span id="msg"> </span>
+              </div>
+                
+            </div>
+            <div class="copyright">
+                <p> copyright &#169; dinesh-pancheti.All rights resverved.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------javascript-------------------------------------->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+            for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+<form name="submit-to-google-sheet">
+    <input name="email" type="email" placeholder="Email" required>
+    <button type="submit">Send</button>
+  </form>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx5iSbglHrh-W8Lfjl_Cc3RsFEcFA4Vzlvww_ey_6fcCb2JafhjU0fnFjXAsu46SN9Q/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
